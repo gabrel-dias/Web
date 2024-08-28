@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Labels</title>
+  </head>
+
+  <body>
+    <h1>Exemplo Checkbox e Radio Buttons</h1>
+    <h2>Escolha o seu gênero:</h2>
+    <label><input type="radio" name="nome" id="M" />Masculino</label> <br />
+    <label><input type="radio" name="nome" id="F" />Feminino</label>
+    <h2>Selecione os seus interesses:</h2>
+    <label for=""><input type="checkbox" value="" />Programação</label>
+    <label for="musica"
+      ><input type="checkbox" name="interesse" id="musica" />Música</label
+    >
+    <label for="jogos">
+      <input type="checkbox" name="interesse" id="jogos" />Jogos
+    </label>
+
+    <h2>Utilizando a tag SELECT</h2>
+    <label for="produto">Escolha o dia da semana</label>
+    <select name="diasemana" id="dia">
+      <option value="1">Domingo</option>
+      <option value="2">Segunda-feira</option>
+      <option value="3">Terça-feira</option>
+      <option selected value="4">Quarta-feira</option>
+      <option value="5">Quinta-feira</option>
+      <option value="6">Sexta-feira</option>
+      <option value="7">Sábado</option>
+    </select>
+  </body>
+</html>
