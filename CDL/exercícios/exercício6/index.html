@@ -1,27 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Série favorita</title>
+    <title>GOT</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="starks.png" type="image/x-icon" />
   </head>
   <body
     background="https://wallpapercat.com/w/full/5/4/c/14971-1920x1080-desktop-1080p-game-of-thrones-wallpaper.jpg"
   >
-    <h1>SÉRIE FAVORITA</h1>
-    <img
-      src="https://upload.wikimedia.org/wikipedia/pt/a/a0/GameofThrones.png"
-      alt="Série"
-    />
-    <caption>
-      <em>"The North remembers..."</em>
-    </caption>
-    <br />
-    <!--Vídeo-->
+    <h1 id="titulo">Game of Thrones</h1>
+    <!--Aberturas das séries de TV-->
     <iframe
-      width="560"
-      height="315"
+      width="510"
+      height="270"
       src="https://www.youtube.com/embed/s7L2PVdrb_8?si=IWpczW-Jk8JjUXDw"
       title="YouTube video player"
       frameborder="0"
@@ -30,24 +23,77 @@
       allowfullscreen
     ></iframe>
 
-    <h2>Adaptação preferida:</h2>
-    <label for="Adaptação"
-      ><select name="livro_serie" id="Adaptação">
-        <option value="1">Série</option>
-        <option selected value="2">Livros</option>
-        <option value="3">Jogos</option>
+    <iframe
+      width="510"
+      height="270"
+      src="https://www.youtube.com/embed/HIblsDVSq_k?si=3tFDmc8y5ZMpQcdg"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <figcaption id="legendas">Aberturas das séries de TV</figcaption>
+    <hr />
+    <h2>Melhores derivados</h2>
+    <h3>Escolha os seus derivados favoritos de Game of Thrones</h3>
+    <h4>Livros</h4>
+    <label for="cronicas"
+      ><input type="checkbox" name="livros" id="cronicas" />As Crônicas de Gelo
+      e Fogo</label
+    >
+    <label for="wild_cards"
+      ><input type="checkbox" name="wild_cards" id="wild_cards" />Wild
+      Cards</label
+    >
+    <h3>Séries de TV</h3>
+    <label for="got"
+      ><input type="checkbox" name="got" id="got" />Game of Thrones</label
+    >
+    <label for="house"
+      ><input type="checkbox" name="house" id="house" />House of the
+      Dragon</label
+    >
+    <h3>Outros</h3>
+    <label for="eletronicos"
+      ><input type="checkbox" name="jogos" id="eletronicos" />Jogos eletrônicos</label
+    >
+    <label for="podcasts"
+      ><input type="checkbox" name="podcasts" id="podcasts" />Podcasts</label
+    >
+    <label for="audiobooks"
+      ><input
+        type="checkbox"
+        name="audiobooks"
+        id="audiobooks"
+      />Audiobooks</label
+    >
+    <br />
+    <hr />
+    <h2>Temporada preferida</h2>
+    <h3>Escolha a sua temporada preferida da adaptação de TV pela HBO</h3>
+    <label for="temporada"
+      ><select name="temporada" id="temporada">
+        <option value="1">Temporada 1</option>
+        <option value="2">Temporada 2</option>
+        <option value="3">Temporada 3</option>
+        <option selected value="4">Temporada 4</option>
+        <option value="5">Temporada 5</option>
+        <option value="6">Temporada 6</option>
+        <option value="7">Temporada 7</option>
+        <option value="8">Temporada 8</option>
       </select></label
     >
-    <h2>Temporada preferida</h2>
-    <label for="temporada"
-      ><input type="radio" name="temporada"/>1
-      <input type="radio" name="temporada" />2
-      <input type="radio" name="temporada" />3
-      <input type="radio" name="temporada" />4 <br>
-      <input type="radio" name="temporada" />5
-      <input type="radio" name="temporada" />6
-      <input type="radio" name="temporada" />7
-      <input type="radio" name="temporada" />8
-    </label>
+    <hr />
+    <h2>O que achou do final da série? &#x1FAE3;</h2>
+    <label for="final_bom"
+      ><input type="radio" name="final_bom" id="final_bom" />Bom</label
+    >
+    <label for="final_ruim"
+      ><input type="radio" name="final_ruim" id="final_ruim" />Ruim</label
+    >
+    <br />
+    <hr />
+    <p id="north">"The North remembers..."</p>
   </body>
 </html>
