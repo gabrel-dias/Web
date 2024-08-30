@@ -5,18 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Labels</title>
   </head>
-
+  <!--O valor do atributo FOR de LABEL de ser igual ao valor do atributo ID do elemento correspondente. Isso serve para associar a label a um elemento do formulário.-->
   <body>
     <h1>Exemplo Checkbox e Radio Buttons</h1>
     <h2>Escolha o seu gênero:</h2>
-    <label for="genero">
-      <input type="radio" name="nome" id="genero" />Masculino <br />
-      <input type="radio" name="nome" id="genero" />Feminino
+    <label for="masculino">
+      <input type="radio" name="genero" id="masculino" />Masculino <br />
     </label>
+
+    <label for="feminino"
+      ><input type="radio" name="nome" id="genero" />Feminino</label
+    >
+
     <h2>Selecione os seus interesses:</h2>
-    <label for="programação"><input type="checkbox" value="" />Programação</label>
+    <label for="programação"
+      ><input
+        type="checkbox"
+        name="interesse"
+        id="programação"
+      />Programação</label
+    >
     <label for="musica"
-      ><input type="checkbox" name="interesse" id="musica" />Música</label>
+      ><input type="checkbox" name="interesse" id="musica" />Música</label
+    >
     <label for="jogos">
       <input type="checkbox" name="interesse" id="jogos" />Jogos
     </label>
