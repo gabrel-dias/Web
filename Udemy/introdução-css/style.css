@@ -2,4 +2,19 @@ h1 {
   color: red;
   /* O atributo 'font-family' serve para definir qual o fonte o browser final (do usuário) vai mostrar a página, possível colocar uma lista de fontes, até que uma delas seja encontrada na máquina do cliente */
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 56px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+p {
+  text-transform: uppercase;
+  text-indent: 18px;
+  /* tentando fazer algo parecido com o aperto de um tab no começo de um parágrafo em ABNT */
 }
