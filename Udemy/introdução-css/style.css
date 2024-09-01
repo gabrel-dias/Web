@@ -15,6 +15,6 @@ h3 {
 }
 p {
   text-transform: uppercase;
-  text-indent: 18px;
+  text-indent: 40px;
   /* tentando fazer algo parecido com o aperto de um tab no começo de um parágrafo em ABNT */
 }
