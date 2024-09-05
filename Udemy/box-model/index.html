@@ -8,14 +8,19 @@
     <style>
       body {
         font-family: sans-serif;
-        h1 {
-          background-color: #247c7c83;
-          width: 40%;
-        }
-        h2 {
-          background-color: rgba(94, 165, 104, 0.5);
-          width: 50%;
-        }
+      }
+      h1 {
+        background-color: #247c7c83;
+        width: fit-content;
+        padding: 25px;
+        /* padding cria uma distância em relação ao conteúdo interno do elemento e a sua borda interna */
+      }
+      h2 {
+        background-color: #5ea56880;
+        width: fit-content;
+        margin: 50px;
+        /* margin cria uma distância em relação a parte interna do elemento e a margem na página */
+        padding: 25px;
       }
       p {
         background-color: #201c1c15;
@@ -23,6 +28,7 @@
       }
     </style>
   </head>
+  
   <body>
     <h1>Box Model</h1>
     <h2>Width/Height</h2>
