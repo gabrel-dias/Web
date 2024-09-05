@@ -5,16 +5,21 @@ h1 {
   font-size: 56px;
 }
 
-h2 {
-  font-size: 48px;
-}
-
 h3 {
   font-size: 40px;
   text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
 }
-p {
-  text-transform: uppercase;
+.paragrafos {
+  text-transform: lowercase;
   text-indent: 40px;
   /* tentando fazer algo parecido com o aperto de um tab no começo de um parágrafo em ABNT */
+}
+
+.titulos{
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #0b3de2;
 }

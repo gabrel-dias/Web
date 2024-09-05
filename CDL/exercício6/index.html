@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulários</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+        function clicarBotao() {
+    document.getElementById('cu').innerHTML = "Clicou!";
+}
+    </script>
+  </head>
+
+  <body>
+    <h1>Envio de mensagem</h1>
+
+    <form action="formulario">
+      Digite seu email: <input type="email" name="email" id="email" /> <br />
+      <br />
+      Digite sua senha: <input type="password" name="senha" id="senha" /> <br />
+      <br />
+      Mensagem: <br /><textarea name="text" id="mensagem" rows="3"></textarea>
+    </form>
+    <button onclick="clicarBotao()" id="botao" type="submit">Enviar</button>
+    <footer>
+      <p>&copy; 2024 Gabriel Dias Todos os direitos reservados.</p>
+      <p><a href="mailto:gabrielmdias@yahoo.com.br">Contato</a></p>
+    </footer>
+    <p id="cu"></p>
+  </body>
+</html>
