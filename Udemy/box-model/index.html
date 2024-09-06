@@ -11,23 +11,43 @@
       }
       h1 {
         background-color: #247c7c83;
-        padding: 10px;
-        /* padding cria uma distância em relação ao conteúdo interno do elemento e a sua borda interna */
+        padding: 16px;
       }
       h2 {
         background-color: #01a717;
-        margin: 50px;
-        /* margin cria uma distância em relação a parte interna do elemento e a margem na página */
-        padding: 10px;
+        margin-top: 60px;
       }
       p {
         background-color: #201c1c42;
       }
 
-      .destaque-width {
+      .destaque {
         background-color: orange;
-        width: px;
-        height: 50px;
+      }
+
+      .size {
+        width: 50%;
+        height: 100px;
+        /* simplesmente define o tamanho que o elemento deve ter, sendo a "%" em relação ao seu atributo pai e o "px" o seu tamanho propriamente dito */
+      }
+
+      .padding {
+        padding: 26px;
+        /* padding cria uma distância em relação ao conteúdo interno do elemento e a sua borda interna "ENCHIMENTO INTERNO" */
+      }
+
+      .margin {
+        margin: 50px 70px 50px 70px;
+        /* margin cria uma distância em relação a borda do elemento e a margem da janela página "DISTANCIAMENTO EXTERIOR" */
+      }
+
+      .border {
+        /* junta a expessura da borda, seu tipo e sua cor */
+        border: 4px dashed #227627;
+        border-bottom: double 5px;
+        /* também é possível juntar várias tags em uma só para moldar os lados das bordas individualmente */
+        border-bottom-color: #b8006b;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       }
     </style>
   </head>
@@ -41,13 +61,17 @@
       deleniti error modi beatae dicta consequuntur fuga! Deserunt, animi.
       Asperiores!
     </p>
-    <p class="destaque-width">
+    <p class="destaque size">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eligendi
       nulla obcaecati? Eum laudantium saepe eius quia ea maxime quibusdam ad
       officiis voluptate asperiores! Odit ducimus magnam doloremque quisquam
       quam.
     </p>
-  
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore est culpa
+      exercitationem sit voluptas distinctio quod vel rem! Voluptatum dolore
+      dicta iure quia sit! Nam vel praesentium repellat quod? Iure?
+    </p>
 
     <h2>Padding</h2>
     <p>
@@ -56,7 +80,7 @@
       deleniti error modi beatae dicta consequuntur fuga! Deserunt, animi.
       Asperiores!
     </p>
-    <p class="destaque">
+    <p class="destaque padding">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eligendi
       nulla obcaecati? Eum laudantium saepe eius quia ea maxime quibusdam ad
       officiis voluptate asperiores! Odit ducimus magnam doloremque quisquam
@@ -75,16 +99,27 @@
       deleniti error modi beatae dicta consequuntur fuga! Deserunt, animi.
       Asperiores!
     </p>
-    <p class="destaque">
+    <p class="destaque margin" style="text-align: justify">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eligendi
       nulla obcaecati? Eum laudantium saepe eius quia ea maxime quibusdam ad
       officiis voluptate asperiores! Odit ducimus magnam doloremque quisquam
       quam.
     </p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, ex?</p>
+
+    <h2>Border</h2>
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis non aliquid
-      ea doloremque iste quasi, magni nam? Est modi voluptatum incidunt rerum,
-      commodi earum et dolores nulla dicta, ipsa voluptatibus!.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita earum
+      libero perferendis, consequatur a iste, magni assumenda aperiam iure ab
+      deleniti error modi beatae dicta consequuntur fuga! Deserunt, animi.
+      Asperiores!
     </p>
+    <p class="destaque border">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eligendi
+      nulla obcaecati? Eum laudantium saepe eius quia ea maxime quibusdam ad
+      officiis voluptate asperiores! Odit ducimus magnam doloremque quisquam
+      quam.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
   </body>
 </html>
