@@ -24,8 +24,8 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
 }
-#resposta-certa {
-  
+mark {
+  background-color: #6dccf2;
 }
 
 h1,
