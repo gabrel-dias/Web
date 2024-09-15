@@ -41,10 +41,15 @@ a:hover {
   color: #65bf95;
 }
 button {
-  background-color: #229a2eaa;
+  background-color: #CD6CF5;
   border-radius: 150px;
 }
 .botao{
+  color: #000000;
+  text-decoration: none;
+}
+.botao:hover{
+  color: #ffffff;
   text-decoration: none;
 }
 
