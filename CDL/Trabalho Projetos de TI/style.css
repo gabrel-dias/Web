@@ -27,7 +27,8 @@
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   color: #6dccf2;
 }
 
@@ -40,8 +41,11 @@ a:hover {
   color: #65bf95;
 }
 button {
-  background-color: #225e9a;
+  background-color: #229a2eaa;
   border-radius: 150px;
+}
+.botao{
+  text-decoration: none;
 }
 
 hr {
