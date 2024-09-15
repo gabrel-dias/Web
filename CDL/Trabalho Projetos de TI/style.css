@@ -11,7 +11,8 @@
 }
 
 h1,
-h2 {
+h2,
+h3 {
   color: #6dccf2;
 }
 
@@ -36,4 +37,22 @@ footer {
 
 li {
   padding-bottom: 14px;
+}
+
+table {
+  background-color: #8b8fd96b;
+  width: 50%;
+  border-collapse: collapse;
+}
+
+thead,
+td {
+  text-align: left;
+  border: 2px solid #ffff;
+  padding: 8px;
+}
+
+th{
+  background-color: #8b8fd96b;
+  color: #ffffff;
 }
