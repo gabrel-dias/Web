@@ -24,6 +24,9 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
 }
+#resposta-certa {
+  
+}
 
 h1,
 h2,
@@ -41,15 +44,15 @@ a:hover {
   color: #65bf95;
 }
 button {
-  background-color: #CD6CF5;
+  background-color: #cd6cf5;
   border-radius: 150px;
 }
-.botao{
-  color: #000000;
+.botao {
   text-decoration: none;
-}
-.botao:hover{
   color: #ffffff;
+}
+.botao:hover {
+  color: #000000;
   text-decoration: none;
 }
 
