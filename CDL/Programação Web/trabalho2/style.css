@@ -11,3 +11,23 @@ ul {
   padding: 16px;
   align-items: center;
 }
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 15px double #4400ff90;
+}
+
+.center {
+  text-align: center;
+}
+
+h1{
+  color: #000dffb1;
+}
