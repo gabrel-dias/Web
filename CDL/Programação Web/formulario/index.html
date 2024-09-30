@@ -8,7 +8,6 @@
   <body>
     <div>
       <h1>Formulário</h1>
-      <br />
     </div>
     <form>
       <fieldset>
@@ -36,6 +35,7 @@
       <br />
       <fieldset>
         <legend>Dados profissionais</legend>
+        <legend>Natureza do cargo</legend>
         <label for="cargo-gerencia">
           <input
             type="radio"
@@ -78,7 +78,54 @@
           />
           Jurídico</label
         >
+        <legend>Área de interesse</legend>
+        <label for="computacao">
+          <input
+            type="checkbox"
+            name="interesses[]"
+            id="computacao"
+            value="computacao"
+          />Computação</label
+        >
+        <label for="biologia"
+          ><input
+            type="checkbox"
+            name="interesses[]"
+            id="biologia"
+            value="biologia"
+          />Biologia</label
+        >
+        <label for="meioambiente"
+          ><input
+            type="checkbox"
+            name="interesses[]"
+            id="meioambiente"
+            value="meioambiente"
+          />Meio Ambiente</label
+        >
+        <label for="engenharia"
+          ><input
+            type="checkbox"
+            name="interesses[]"
+            id="engenharia"
+            value="engenharia"
+          />Engenharia</label
+        >
+        <label for="historia"
+          ><input
+            type="checkbox"
+            name="interesses[]"
+            id="historia"
+            value="historia"
+          />História</label
+        >
+        <label for="curriculo">
+          <textarea name="curriculo" id="curriculo"></textarea>
+        </label>
       </fieldset>
+      <br />
+      <button type="submit">Enviar</button>
+      <button>Limpar</button>
     </form>
   </body>
 </html>
