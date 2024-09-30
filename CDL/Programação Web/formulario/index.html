@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de cadastro</title>
+  </head>
+  <body>
+    <div>
+      <h1>Formulário</h1>
+      <br />
+    </div>
+    <form>
+      <fieldset>
+        <legend>Dados pessoais</legend>
+        <div>
+          <label for="nome">Nome:</label>
+          <input type="text" name="nome" id="nome" />
+        </div>
+        <div>
+          <label for="endereco">Endereço:</label>
+          <input type="text" name="endereco" id="endereco" />
+        </div>
+        <div>
+          <label for="cidade">Ciadade:</label>
+          <input type="text" name="cidade" id="endereco" />
+        </div>
+        <div>
+          <label for="estado">
+            <select name="endereco" id="endereco">
+              <option value="SP">São Paulo</option>
+            </select></label
+          >
+        </div>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Dados profissionais</legend>
+        <label for="cargo-gerencia">
+          <input
+            type="radio"
+            name="cargo"
+            id="cargo-gerencia"
+            value="gerencia"
+          />Gerência
+        </label>
+        <label for="cargo-financeiro">
+          <input
+            type="radio"
+            name="cargo"
+            id="cargo-financeiro"
+            value="financeiro"
+          />
+          Financeiro</label
+        >
+        <label for="cargo-recepcao"
+          ><input
+            type="radio"
+            name="cargo"
+            id="cargo-recepcao"
+            value="recepcao"
+          />Recepção</label
+        >
+        <label for="cargo-administrativo"
+          ><input
+            type="radio"
+            name="cargo"
+            id="cargo-administrativo"
+            value="administrativo"
+          />Administrativo</label
+        >
+        <label for="cargo-juridico"
+          ><input
+            type="radio"
+            name="cargo"
+            id="cargo-juridico"
+            value="juridico"
+          />
+          Jurídico</label
+        >
+      </fieldset>
+    </form>
+  </body>
+</html>
