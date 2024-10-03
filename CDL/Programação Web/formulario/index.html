@@ -5,7 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulário de cadastro</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+    <style>
+      form{
+        width: 32rem;
+      }
+    </style>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var botaoEnviar = document.getElementById("botaoEnviar");
+        var botaoLimpar = document.getElementById("botaoLimpar");
+        var formulario = document.getElementById("meuFormulario");
+
+        // Exibe alerta ao enviar
+        botaoEnviar.addEventListener("click", function () {
+          alert("Formulário enviado!");
+        });
+
+        // Limpa todos os campos do formulário
+        botaoLimpar.addEventListener("click", function () {
+          formulario.reset(); // Método para limpar o formulário
+        });
+      });
+    </script>
   </head>
   <body>
     <h1>Formulário</h1>
@@ -25,7 +46,8 @@
           <input type="text" name="cidade" id="cidade" />
         </div>
         <div>
-          <label for="estado">
+          <label for="estado"
+            >Estado:
             <select name="endereco" id="endereco">
               <option value="CE">Ceará</option>
               <option value="SP">São Paulo</option>
