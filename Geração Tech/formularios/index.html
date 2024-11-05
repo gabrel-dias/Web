@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <h1>Exemplos de inputs</h1>
+    <form action="" method="get">
+      <div>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" placeholder="Digite o seu nome" />
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Digite o seu e-mail"
+        />
+      </div>
+
+      <div>
+        <label for="senha">Senha</label>
+        <input
+          type="password"
+          name="senha"
+          id="senha"
+          placeholder="Digite a sua senha"
+        />
+      </div>
+      <div>
+        <label for="checkbox">Checkbox</label>
+        <input type="checkbox" id="checkbox" value="sim" name="checkbox" />
+      </div>
+
+      <div>
+        <label for="data">Data</label>
+        <input type="date" name="data" id="data" />
+      </div>
+
+      <div>
+        <label for="data-hora">Data e hora</label>
+        <input type="datetime-local" name="data-hora" id="data-hora" />
+      </div>
+
+      <div>
+        <label for="numero">Numero</label>
+        <input type="number" name="numero" id="numero" min="1" max="10" />
+      </div>
+
+      <div>
+        <label for="cor">Cor</label>
+        <input type="color" name="cor" id="cor" />
+      </div>
+
+      <div>
+        <select name="opcao" id="opcao">
+          <option value="hint" disabled selected>Escolha uma opção</option>
+          <option value="op1">Opção 1</option>
+          <option value="op2">Opção 2</option>
+          <option value="op3">Opção 3</option>
+        </select>
+      </div>
+
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
