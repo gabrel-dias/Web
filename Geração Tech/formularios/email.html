@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email</title>
+  </head>
+  <body>
+    <form action="" method="post">
+      <div>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" required />
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required />
+      </div>
+      <div>
+        <fieldset>
+          <legend>Assunto</legend>
+          <div>
+            <label
+              ><input
+                required
+                type="radio"
+                name="assunto"
+                id="compra"
+                value="compra"
+              />Compra</label
+            >
+            <label
+              ><input
+                required
+                type="radio"
+                name="assunto"
+                id="venda"
+                value="venda"
+              />Venda</label
+            >
+          </div>
+        </fieldset>
+      </div>
+
+      <div>
+        <label>
+          Mensagem: <br>
+          <textarea
+            name="mensagem"
+            id="mensagem"
+            cols="40"
+            rows="3"
+            required
+          ></textarea>
+        </label>
+      </div>
+      <input type="submit" value="Enviar" />
+      <input type="reset" value="Limpar" />
+    </form>
+  </body>
+</html>

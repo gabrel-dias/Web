@@ -1,0 +1,102 @@
+Aqui está uma lista abrangente das tags HTML, organizadas por categorias principais:
+
+ Tags Estruturais
+- `<!DOCTYPE>`: Define o tipo de documento.
+- `<html>`: Elemento raiz de um documento HTML.
+- `<head>`: Contém metadados sobre o documento.
+- `<title>`: Define o título do documento.
+- `<body>`: Contém o conteúdo visível do documento.
+
+ Tags de Cabeçalho e Metadados
+- `<meta>`: Define metadados sobre o documento.
+- `<link>`: Utilizado para vincular recursos externos, como folhas de estilo.
+- `<style>`: Define estilos CSS internos.
+- `<script>`: Contém scripts JavaScript.
+
+ Tags de Seção
+- `<header>`: Define o cabeçalho de uma seção ou página.
+- `<nav>`: Define uma seção de navegação.
+- `<main>`: Contém o conteúdo principal do documento.
+- `<section>`: Define uma seção genérica do documento.
+- `<article>`: Define conteúdo independente, como um artigo.
+- `<aside>`: Define conteúdo relacionado, mas separado do conteúdo principal.
+- `<footer>`: Define o rodapé de uma seção ou página.
+
+ Tags de Conteúdo
+- `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`: Definem cabeçalhos de diferentes níveis.
+- `<p>`: Define um parágrafo.
+- `<div>`: Define uma divisão ou seção genérica.
+- `<span>`: Define uma seção em linha genérica.
+- `<a>`: Define um link.
+- `<img>`: Define uma imagem.
+- `<br>`: Insere uma quebra de linha.
+- `<hr>`: Insere uma linha horizontal.
+
+ Tags de Lista
+- `<ul>`: Define uma lista não ordenada.
+- `<ol>`: Define uma lista ordenada.
+- `<li>`: Define um item de lista.
+- `<dl>`: Define uma lista de definição.
+- `<dt>`: Define um termo na lista de definição.
+- `<dd>`: Define uma descrição do termo na lista de definição.
+
+ Tags de Formulário
+- `<form>`: Define um formulário.
+- `<input>`: Define um campo de entrada.
+- `<textarea>`: Define uma área de texto.
+- `<button>`: Define um botão.
+- `<label>`: Define um rótulo para um campo de formulário.
+- `<fieldset>`: Agrupa elementos de formulário.
+- `<legend>`: Define uma legenda para um `<fieldset>`.
+- `<select>`: Define uma lista suspensa.
+- `<option>`: Define uma opção em uma lista suspensa.
+- `<optgroup>`: Define um grupo de opções em uma lista suspensa.
+
+ Tags de Tabela
+- `<table>`: Define uma tabela.
+- `<caption>`: Define uma legenda para a tabela.
+- `<thead>`: Agrupa o cabeçalho de uma tabela.
+- `<tbody>`: Agrupa o corpo de uma tabela.
+- `<tfoot>`: Agrupa o rodapé de uma tabela.
+- `<tr>`: Define uma linha de tabela.
+- `<th>`: Define uma célula de cabeçalho.
+- `<td>`: Define uma célula de dados.
+
+ Tags Multimídia
+- `<audio>`: Define conteúdo de áudio.
+- `<video>`: Define conteúdo de vídeo.
+- `<source>`: Define várias fontes de mídia para elementos `<audio>` e `<video>`.
+- `<track>`: Define faixas de texto para elementos `<audio>` e `<video>`.
+- `<embed>`: Define conteúdo incorporado.
+- `<object>`: Define um objeto incorporado.
+- `<param>`: Define parâmetros para elementos `<object>`.
+- `<iframe>`: Define um quadro embutido.
+
+ Tags Semânticas
+- `<abbr>`: Define uma abreviação.
+- `<address>`: Define informações de contato.
+- `<b>`: Define texto em negrito.
+- `<bdi>`: Isola partes de texto que podem ter uma direção de texto diferente.
+- `<bdo>`: Substitui a direção do texto.
+- `<blockquote>`: Define uma seção citada.
+- `<cite>`: Define o título de uma obra.
+- `<code>`: Define um trecho de código.
+- `<del>`: Define texto que foi excluído.
+- `<dfn>`: Define um termo definido.
+- `<em>`: Define texto enfatizado.
+- `<i>`: Define texto em itálico.
+- `<ins>`: Define texto que foi inserido.
+- `<kbd>`: Define entrada de teclado.
+- `<mark>`: Define texto destacado.
+- `<pre>`: Define texto pré-formatado.
+- `<q>`: Define uma citação curta.
+- `<s>`: Define texto que não é mais correto.
+- `<samp>`: Define saída de computador.
+- `<small>`: Define texto pequeno.
+- `<strong>`: Define texto forte.
+- `<sub>`: Define texto subscrito.
+- `<sup>`: Define texto sobrescrito.
+- `<time>`: Define uma data/hora.
+- `<u>`: Define texto sublinhado.
+- `<var>`: Define uma variável.
+- `<wbr>`: Define uma possível quebra de linha.
